@@ -50,13 +50,9 @@ In this example there are 2 implementations of the
 Employee DAO
 </a>:
 1. One using Hibernate Session -
-<a href="src/main/java/com/spencer/forrest/employeerestapi/dao/EmployeeDAOHibernateImpl.java">
-    EmployeeDAOHibernateImpl.java
-</a>
+<a href="src/main/java/com/spencer/forrest/employeerestapi/dao/EmployeeDAOHibernateImpl.java">EmployeeDAOHibernateImpl.java</a>
 2. One using Entity Manager (JPA) - 
-<a href="src/main/java/com/spencer/forrest/employeerestapi/dao/EmployeeDAOJPAImpl.java">
-   EmployeeDAOJPAImpl.java
-</a>
+<a href="src/main/java/com/spencer/forrest/employeerestapi/dao/EmployeeDAOJPAImpl.java">EmployeeDAOJPAImpl.java</a>
 
 To change which implementation to use, modify the file 
 <a href="src/main/java/com/spencer/forrest/employeerestapi/service/EmployeeServiceImpl.java">
