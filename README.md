@@ -55,7 +55,7 @@ Employee DAO
 <a href="src/main/java/com/spencer/forrest/employeerestapi/dao/EmployeeDAOJPAImpl.java">EmployeeDAOJPAImpl.java</a>
 
 To change which implementation to use, modify the file 
-<a href="src/main/java/com/spencer/forrest/employeerestapi/service/EmployeeServiceImpl.java">
+<a href="src/main/java/com/spencer/forrest/employeerestapi/service/EmployeeServiceImpl.java#L19">
 EmployeeServiceImpl.java
 </a> on line 19:
 1. For Hibernate -> @Qualifier("employeeDAOHibernateImpl")
